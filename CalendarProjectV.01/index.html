@@ -1,20 +1,13 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <script src='https://cdn.jsdelivr.net/npm/fullcalendar/index.global.min.js'></script>
-    <script>
+<head>
+  <script src='https://cdn.jsdelivr.net/npm/fullcalendar/index.global.min.js'></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar/main.min.css">
+</head>
+<body>
 
-      document.addEventListener('DOMContentLoaded', function() {
-        const calendarEl = document.getElementById('calendar')
-        const calendar = new FullCalendar.Calendar(calendarEl, {
-          initialView: 'dayGridMonth'
-        })
-        calendar.render()
-      })
+  <div id='calendar'></div>
+  <script src="js/originalscript.js"></script> 
 
-    </script>
-  </head>
-  <body>
-    <div id='calendar'></div>
-  </body>
+</body>
 </html>
