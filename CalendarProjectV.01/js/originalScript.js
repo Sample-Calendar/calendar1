@@ -16,4 +16,4 @@ document.addEventListener('DOMContentLoaded', function() {
       events: events
     })
     calendar.render()
-  })
+  });
